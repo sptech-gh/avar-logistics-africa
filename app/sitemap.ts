@@ -1,0 +1,2 @@
+import type {MetadataRoute} from 'next'; import {services} from '@/lib/data';
+export default function sitemap():MetadataRoute.Sitemap{const base='https://avarlogisticsafrica.com';return ['', '/about','/emergency-escort','/completed-trips','/testimonials','/partnerships','/contact','/insights',...services.map(s=>`/services/${s.slug}`)].map(path=>({url:`${base}${path}`,lastModified:new Date(),changeFrequency:path===''?'weekly':'monthly',priority:path===''?1:.7}))}

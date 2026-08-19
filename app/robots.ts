@@ -1,1 +1,1 @@
-import type {MetadataRoute} from 'next'; export default function robots():MetadataRoute.Robots{return {rules:{userAgent:'*',allow:'/'},sitemap:'https://avarlogisticsafrica.com/sitemap.xml'}}
+import type {MetadataRoute} from 'next'; export default function robots():MetadataRoute.Robots{return {rules:{userAgent:'*',allow:'/'},sitemap:'https://avarlogisticsafricaltd.com/sitemap.xml'}}

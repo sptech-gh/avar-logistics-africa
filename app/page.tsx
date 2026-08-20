@@ -5,11 +5,11 @@ import { services, wa, emergencyPhone, testimonials } from '@/lib/data';
 import Counter from '@/components/Counter';
 
 const serviceImages: Record<string, string> = {
-  'car-rental': '/images/car-rental.jpg',
-  'vehicle-importation': '/images/vehicle-import.jpg',
-  'distribution': '/images/hero-fleet.jpg',
-  'staff-bussing': '/images/staff-bussing.jpg',
-  'private-vip-drive': '/images/vip-transport.jpg'
+  'car-rental': '/images/car-rental.webp',
+  'vehicle-importation': '/images/vehicle-import.webp',
+  'distribution': '/images/hero-fleet.webp',
+  'staff-bussing': '/images/staff-bussing.webp',
+  'private-vip-drive': '/images/vip-transport.webp'
 };
 const ticker = [
   'VIP transport',
@@ -33,8 +33,8 @@ export default function Home() {
           muted
           loop
           playsInline
-          preload="auto"
-          poster="/images/hero-fleet.jpg"
+          preload="metadata"
+          poster="/images/hero-fleet.webp"
           aria-label="Avar Logistics fleet, vehicle importation, VIP transport and port operations"
         >
           <source src="/videos/hero-loop.mp4" type="video/mp4" />
@@ -77,7 +77,7 @@ export default function Home() {
         <div className="container whowe-grid">
           <div className="whowe-media">
             <Image
-              src="/images/team-fleet.jpg"
+              src="/images/team-fleet.webp"
               alt="Avar drivers and coordinators with the company fleet in Accra"
               width={880}
               height={660}
@@ -120,7 +120,7 @@ export default function Home() {
             <Link href="/emergency-escort" className="wedo-card wedo-hot">
               <div className="wedo-img">
                 <Image
-                  src="/images/vip-transport.jpg"
+                  src="/images/vip-transport.webp"
                   alt="Emergency and escort coordination"
                   fill
                   sizes="(max-width:850px) 50vw, 25vw"

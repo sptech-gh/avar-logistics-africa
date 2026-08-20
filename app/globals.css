@@ -21,3 +21,64 @@
 .mobile-nav .mobile-sub-link{padding-left:22px;font-size:.8rem;color:#526074}
 @media(max-width:850px){.slideshow{height:400px}.slide-caption{padding:70px 22px 24px}.slide-caption h3{font-size:1.05rem}}
 @media(max-width:520px){.slideshow{height:300px}.slide-btn{width:38px;height:38px}}
+
+/* ==================== TESTIMONIALS & TRUST STYLES ==================== */
+.testimonials-section{background:#f8fafc;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.testimonials-head{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:end;margin-bottom:45px}
+.testimonials-intro-text{color:var(--ink-muted);line-height:1.8;font-size:1.02rem;margin:0}
+.t-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.t-card{background:#fff;border:1px solid #e2e8f0;border-top:4px solid var(--color-primary);padding:32px 28px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 8px 24px rgba(10,26,51,.05);transition:transform .25s ease,box-shadow .25s ease}
+.t-card:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(10,26,51,.1)}
+.t-card-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.t-stars{display:flex;gap:3px}
+.t-tag{font-size:.68rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;background:rgba(242,59,24,.08);color:var(--color-primary);padding:4px 10px;border-radius:2px}
+.t-quote{font-size:.95rem;line-height:1.75;color:#1e293b;font-style:italic;margin:0 0 24px 0;flex-grow:1}
+.t-author-box{display:flex;align-items:center;gap:14px;padding-top:18px;border-top:1px solid #f1f5f9}
+.t-author-avatar{width:44px;height:44px;border-radius:50%;background:var(--color-dark);color:#fff;font-family:'Archivo Black',Impact,sans-serif;display:grid;place-items:center;font-size:1.1rem;flex-shrink:0}
+.t-author-name{font-weight:800;font-size:.92rem;color:var(--color-dark);display:flex;align-items:center;gap:6px}
+.t-verified-icon{color:var(--color-primary)}
+.t-author-role{font-size:.72rem;color:var(--ink-muted);line-height:1.3}
+.t-author-company{font-size:.76rem;font-weight:700;color:var(--color-secondary);margin-top:2px}
+.testimonials-action-bar{margin-top:45px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;padding-top:25px;border-top:1px solid var(--line)}
+.testimonials-policy-note{font-size:.8rem;font-weight:700;color:#475569}
+
+/* Testimonials Full Page Styles */
+.trust-bar-section{background:var(--color-dark);color:#fff;padding:35px 0;border-bottom:2px solid var(--color-primary)}
+.trust-bar-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center}
+.trust-item{display:flex;flex-direction:column;gap:4px}
+.trust-number{font-family:'Archivo Black',Impact,sans-serif;font-size:clamp(1.8rem,3.2vw,2.5rem);color:#ff8b72;line-height:1}
+.trust-label{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:#cbd5e1}
+.section-intro-center{text-align:center;max-width:750px;margin:0 auto 55px auto}
+.section-intro-center h2{font-size:clamp(2.2rem,4vw,3.4rem);margin:10px 0 16px}
+.section-intro-center p{color:var(--ink-muted);line-height:1.8;font-size:1.02rem}
+.t-full-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-bottom:60px}
+.t-full-card{background:#fff;border:1px solid #e2e8f0;border-top:4px solid var(--color-secondary);padding:34px 28px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 10px 30px rgba(10,26,51,.06);transition:transform .25s ease,box-shadow .25s ease}
+.t-full-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(10,26,51,.12);border-top-color:var(--color-primary)}
+.t-full-header{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:18px}
+.t-highlight-pill{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;background:#0f274a;color:#fff;padding:4px 10px;border-radius:2px}
+.t-full-quote{font-size:.96rem;line-height:1.8;color:#1e293b;font-style:italic;margin:0 0 24px 0;flex-grow:1}
+.t-detail-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+.t-service-pill{font-size:.7rem;font-weight:800;background:#eef4fb;color:var(--color-secondary);padding:3px 8px}
+.t-meta-chip{display:inline-flex;align-items:center;gap:4px;font-size:.68rem;color:#64748b;font-weight:600}
+.t-full-author{padding-top:16px;border-top:1px solid #e2e8f0}
+.t-author-info{flex-grow:1}
+.t-verified-tag{display:inline-flex;align-items:center;gap:3px;font-size:.65rem;font-weight:800;color:#15864b;background:#e8f7ee;padding:2px 6px;border-radius:2px;margin-left:6px}
+.t-author-company{display:inline-flex;align-items:center;gap:5px;font-size:.75rem;font-weight:700;color:var(--color-secondary);margin-top:2px}
+
+.trust-policy-banner{background:var(--color-dark);color:#fff;border-left:5px solid var(--color-primary);padding:36px 40px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center;margin-bottom:60px}
+.trust-policy-icon{background:rgba(242,59,24,.12);padding:18px;border-radius:4px;display:grid;place-items:center}
+.trust-policy-content h3{font-family:'Archivo Black',Impact,sans-serif;font-size:1.15rem;letter-spacing:-.02em;margin:0 0 10px 0;color:#ff8b72}
+.trust-policy-content p{color:#cbd5e1;line-height:1.8;font-size:.92rem;margin:0}
+
+.reference-cta-card{background:var(--paper);border:1px solid var(--line);padding:50px;display:grid;grid-template-columns:1.3fr .7fr;gap:45px;align-items:center}
+.reference-cta-copy h2{font-family:'Archivo Black',Impact,sans-serif;font-size:clamp(1.6rem,2.5vw,2.2rem);line-height:1.1;margin:0 0 14px 0}
+.reference-cta-copy p{color:var(--ink-muted);line-height:1.75;font-size:.94rem;margin:0}
+.reference-cta-buttons{display:flex;flex-direction:column;gap:14px}
+
+@media(max-width:950px){
+  .testimonials-head{grid-template-columns:1fr;gap:20px}
+  .t-grid,.t-full-grid{grid-template-columns:1fr;gap:20px}
+  .trust-bar-grid{grid-template-columns:1fr 1fr;gap:20px}
+  .trust-policy-banner{grid-template-columns:1fr;padding:28px;gap:18px}
+  .reference-cta-card{grid-template-columns:1fr;padding:32px}
+}
